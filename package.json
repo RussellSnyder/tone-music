@@ -1,0 +1,41 @@
+{
+  "name": "tone-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development --output ./dist/main.js",
+    "build": "webpack --mode production --output ./dist/main.js",
+    "watch": "webpack --watch -d"
+  },
+  "keywords": [
+    "tonejs",
+    "browser music"
+  ],
+  "author": "Russell Snyder",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "lodash": "^4.17.11",
+    "tone": "^13.4.9"
+  },
+  "typings": "dist/index.d.ts",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.4.5",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
